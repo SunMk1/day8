@@ -9,28 +9,28 @@
 <!-- 지도를 표시할 div 입니다 -->
 <div id="map" style="width:100vw;height:50vh;"></div>
 <div id="result"></div>
-<div>
+<div class="menuDiv">
   <button onclick="loadData('http://192.168.0.186:5555/w17/1team.json')">1팀</button>
   <button onclick="loadData('http://192.168.0.223:5555/w17/2team.json')">2팀</button>
   <button onclick="loadData('http://192.168.0.230:5555/w17/3team.json')">3팀</button>
 </div>
 
 <ul class="storeList"></ul>
-<!--<style>-->
-<!--  .menuDiv{-->
-<!--    display: flex;-->
-<!--    margin: 30px;-->
-<!--    justify-content: space-between;-->
-<!--  }-->
-<!--  .menuDiv > a{-->
-<!--    text-decoration: none;-->
-<!--    background-color: skyblue;-->
-<!--    color: black;-->
-<!--    font-size: large;-->
-<!--    border-radius: 3px;-->
-<!--    padding: 10px;-->
-<!--  }-->
-<!--</style>-->
+<style>
+  .menuDiv{
+    display: flex;
+    margin: 30px;
+    justify-content: space-between;
+  }
+  .menuDiv > button{
+    text-decoration: none;
+    background-color: skyblue;
+    color: black;
+    font-size: large;
+    border-radius: 3px;
+    padding: 10px;
+  }
+</style>
 
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=d9b6d8be89b30fe7a9599178cb45404d"></script>
 <script>
