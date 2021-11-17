@@ -1,0 +1,17 @@
+철자 확인
+점 쉼표 콤마 괄호 확인
+값 제대로 가져왔는지 확인
+식길어짐 = 변수에 저장
+! 부정연산자 i++ 증감 i-- 감산? ==
+const=상수 let=변하는값
+for 루프 돌리기
+
+배열 [] 객체 리터럴 [{}]
+
+document 돔/문서 , querySelector(css 지정)
+addEventListener(타입 ,(function도 가능!!) event 명 ) => or " ( " , " , 연산){
+
+}, false <= (캡쳐링 true or false)
+getAttribute css 가져오기
+setAttribute css 추가하기
+

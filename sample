@@ -1,0 +1,26 @@
+클로저
+
+json파일 공유
+음식점 데이터 = 배열 = 문자열 = json파일
+
+이벤트
+const target = e.target
+
+getAttribute css 가져오기
+setAttribute 추가하기
+
+node json simple json server
+
+동기화 a = do a
+      b = do b
+      c = do c = a끝날때 까지 b,c 실행안됨 (한번에 한개)
+
+비동기 a = do a (끝나고 do b(나 일 끝났으니 니 일하라고 전해줌)~~) ~~(끝나고 do c~~)
+      b = 자기할일
+      c = 자기할일 == 콜백함수
+
+====> 그래서 항상있는 값에 이벤트 거는게 좋음
+
+tagname == '대문자'
+<태그 data-(데이터 이름)>
+data-(데이터 이름) = 소문자만 = html 속성(class,id 등) 에 없는 js의 값을 표현하기 위함
